@@ -1,12 +1,16 @@
 .image-container {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-  }
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-container img {
+  max-width: 30%;
+  height: auto;
+  margin-bottom: 10px;
+}
   @media (max-width: 768px) {
     .image-container {
       max-width: 80%;
